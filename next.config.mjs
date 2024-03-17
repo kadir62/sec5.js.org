@@ -11,15 +11,6 @@ const nextConfig = {
       }
     ]
   },
-  async redirects() {
-    return [
-      {
-        source: '/docs',
-        destination: '/docs/get-started',
-        permanent: true
-      }
-    ]
-  }
 }
 
 export default nextra({

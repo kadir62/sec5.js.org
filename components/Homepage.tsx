@@ -26,7 +26,7 @@ const Homepage = () => {
           and more...
         </h3>
         <div className="flex flex-col md:flex-row gap-12">
-          <Button href="/docs/get-started" variant="primary">
+          <Button href="/docs" variant="primary">
             Get Started
           </Button>
           <Button variant="secondary">Configuration</Button>
@@ -76,7 +76,7 @@ const Homepage = () => {
           And more...
         </h1>
         <div className="flex flex-col md:flex-row">
-          <Button href="/docs/get-started" variant="primary">
+          <Button href="/docs" variant="primary">
             Discover now →
           </Button>
         </div>
