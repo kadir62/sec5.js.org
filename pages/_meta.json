@@ -1,0 +1,15 @@
+{
+  "index": {
+    "type": "page",
+    "title": "Sec5",
+    "display": "hidden",
+    "theme": {
+      "layout": "raw"
+    }
+  },
+  "docs": {
+    "title": "Documentation",
+    "href": "/docs/get-started",
+    "type": "page"
+  }
+}

@@ -1,0 +1,19 @@
+---
+title: Configuration
+---
+
+# Configuration
+
+Welcome to the configuration documentation for our workspace security tool. This document will guide you through configuring the tool according to your project requirements.
+
+## Configuration File
+
+To configure the tool, you need to create a `secure.config.js` ([Check](/docs/get-started.mdx#creating-config-file)) file in the root of your project. This file should export an object with specific configurations. Here's an example of a configuration file:
+
+```javascript
+export default {
+  allowTodo: true, // Set to true to allow TODO comments
+  allowNonWritedChangelog: false, // Set to true to allow non-written versions on changelog files
+  allowNoVersion: false // Set to true to allow projects without a version
+}
+```
