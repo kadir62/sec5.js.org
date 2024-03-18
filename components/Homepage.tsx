@@ -29,7 +29,9 @@ const Homepage = () => {
           <Button href="/docs" variant="primary">
             Get Started
           </Button>
-          <Button variant="secondary">Configuration</Button>
+          <Button href="/docs/configuration" variant="secondary">
+            Configuration
+          </Button>
         </div>
       </div>
       <div className="bg-gray-200 dark:bg-[#080808] w-full h-auto flex flex-col md:flex-row min-h-[500px] rounded-t-lg justify-around items-center p-8 gap-y-12">

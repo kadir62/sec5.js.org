@@ -19,7 +19,7 @@ const BetaWarning: ReactNode = (
   <p className="flex flex-row gap-x-4 w-full items-center justify-center">
     Sec5 is currently in BETA.
     <a
-      href=""
+      href="https://github.com/kadir62/sec5"
       className="text-primary flex flex-row gap-x-1 hover:gap-x-2 transition-all"
     >
       Learn more <i>→</i>
