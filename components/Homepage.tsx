@@ -1,7 +1,7 @@
 import Button from './Button'
 
 const ConfigText = `export default {
-  allowTodo: true,
+  allowComments: true,
   allowNonWritedChangelog: false,
   allowNoVersion: false
 }
@@ -17,7 +17,7 @@ const Homepage = () => {
         <h3 className="text-xl text-alt">
           Elevate your workspace security effortlessly with tools like{' '}
           <code className="bg-blue-300/20 p-1 rounded-md text-blue-400">
-            TODO checking
+            Comment checking
           </code>
           ,{' '}
           <code className="bg-blue-300/20 p-1 rounded-md text-blue-400">
@@ -47,7 +47,7 @@ const Homepage = () => {
         <pre className="p-4 bg-black rounded-lg border border-gray-800 text-white max-w-full overflow-scroll">
           <code className="flex flex-col text-yellow-400">
             <p className="text-primary">$ pnpx sec5</p>
-            <p>[SEC5 WARN] Founded 2 TODOs in:</p>
+            <p>[SEC5 WARN] Founded 2 comments in:</p>
             <p>C:\Users\k4dir\Desktop\Projeler\sec5\bin\sec5.js</p>
             <p>C:\Users\k4dir\Desktop\Projeler\sec5\src\todoCheck.ts</p>
             <p className="text-primary">
