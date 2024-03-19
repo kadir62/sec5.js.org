@@ -47,11 +47,17 @@ const Homepage = () => {
         <pre className="p-4 bg-black rounded-lg border border-gray-800 text-white max-w-full overflow-scroll">
           <code className="flex flex-col text-yellow-400">
             <p className="text-primary">$ pnpx sec5</p>
+            <p className="text-primary">
+              [SEC5 INFO] CHANGELOG.md and package.json version matches
+            </p>
             <p>[SEC5 WARN] Founded 2 comments in:</p>
             <p>C:\Users\k4dir\Desktop\Projeler\sec5\bin\sec5.js</p>
             <p>C:\Users\k4dir\Desktop\Projeler\sec5\src\todoCheck.ts</p>
             <p className="text-primary">
-              [SEC5 INFO] CHANGELOG.md and package.json version matches
+              [SEC5 INFO] Codes are formatted correctly with Prettier
+            </p>
+            <p className="text-primary">
+              [SEC5 INFO] Codes are writed correctly for rules with eslint
             </p>
           </code>
         </pre>
