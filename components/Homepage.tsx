@@ -3,7 +3,9 @@ import Button from './Button'
 const ConfigText = `export default {
   allowComments: true,
   allowNonWritedChangelog: false,
-  allowNoVersion: false
+  allowNoVersion: false,
+  allowNoFormat: false,
+  ignoredChecks: []
 }
 `
 

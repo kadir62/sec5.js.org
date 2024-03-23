@@ -15,7 +15,10 @@ export default {
   allowComments: true, // Set to true to allow comments like TODO, FIXME and BUG
   allowNonWritedChangelog: false, // Set to true to allow non-written versions on changelog files
   allowNoVersion: false, // Set to true to allow projects without a version
-  allowNoFormat: false // Set to true to allow non-formatted code
-  allowNoLint: false // Set to true to allow non-linted code
+  allowNoFormat: false, // Set to true to allow non-formatted code
+  allowNoLint: false, // Set to true to allow non-linted code
+  ignoredChecks: [
+    /* ['eslint', 'prettier', 'changelog', 'version', 'format', 'comment'] */
+  ] // Ignore some checks.
 }
 ```
