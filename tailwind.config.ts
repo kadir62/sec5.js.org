@@ -4,13 +4,15 @@ const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './layouts/**/*.{js,ts,jsx,tsx,mdx}',
+    './theme/**/*.{js,ts,jsx,tsx,mdx}',
     './theme.config.tsx'
   ],
   theme: {
     extend: {
-      colors: {
-        primary:
-          'hsl(var(--nextra-primary-hue)var(--nextra-primary-saturation)45%/var(--tw-text-opacity))'
+      colors: {},
+      fontSize: {
+        title: 'max(48px,min(5vw,60px))'
       }
     }
   },

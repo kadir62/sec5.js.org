@@ -1,14 +1,10 @@
 {
   "index": {
     "type": "page",
-    "title": "Sec5",
+    "title": "Home",
     "display": "hidden",
     "theme": {
       "layout": "raw"
     }
-  },
-  "docs": {
-    "title": "Documentation",
-    "type": "page"
   }
 }
